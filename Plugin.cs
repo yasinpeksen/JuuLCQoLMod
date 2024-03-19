@@ -23,6 +23,7 @@ namespace JuuQoLMod
 
             harmony.PatchAll(typeof(JuuQoLModBase));
             harmony.PatchAll(typeof(SprayPaintItemPatch));
+            harmony.PatchAll(typeof(RoundManagerPatch));
         }
     }
 }
