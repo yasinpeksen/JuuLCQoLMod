@@ -22,6 +22,6 @@ All shotguns inside the ship and on players reload 2 shells after when landing a
 
 
 ## How To Install The Mod
-1. Download the .dll file from Releases
-2. Copy the .dll file to BepInEx plugins folder ("SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins")
+1. Download the .zip file from Releases
+2. Unpack inside of the zip file to Lethal Company folder ("SteamLibrary\steamapps\common\Lethal Company")
 3. Run the game
