@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using HarmonyLib;
 using JuuQoLMod.Patches;
+using System.Reflection;
 
 namespace JuuQoLMod
 {
@@ -21,9 +22,7 @@ namespace JuuQoLMod
             // Log
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
 
-            harmony.PatchAll(typeof(JuuQoLModBase));
-            harmony.PatchAll(typeof(SprayPaintItemPatch));
-            harmony.PatchAll(typeof(RoundManagerPatch));
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
 }
